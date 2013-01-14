@@ -1,0 +1,149 @@
+es:
+  giftbar:
+    accept-tnc: Acepto las
+    accept-tnc-error: Por favor, debes aceptar los términos y condiciones de uso antes
+      de confirmar
+    also-send-gift: Enviale un regalo
+    an-error-has-occurred-please-retry: Un error ha ocurrido, por favor intenta más
+      tarde
+    applications: Aplicaciones
+    apps-btn: Aplicaciones
+    back-btn: Atrás
+    beta_n-free-credits: ¡${x} créditos<br/>gratis!
+    buy-more-credits-to-send-more-gifts: ¡Más créditos = muchos más regalos para tus
+      amigos!
+    choose-how-many-credits-you-need: ! 'Elige cuantos créditos necesitas:'
+    close-pin-btn: Reducir
+    credits-btn: Más créditos
+    credits_n: ${n} créditos
+    date_n-days-ago: hace ${n} días
+    date_n-hours-ago: hace ${n} horas
+    date_n-minutes-ago: hace ${n} minutos
+    date_n-seconds-ago: hace ${n} segundos
+    enter-your-code-here: Cuando recibas tu código, introdúcelo a continuación y clica
+      Confirmar
+    for_free_excl: ¡Gratis!
+    found-no-pricepoints-for-your-country: Lo sentimos, este método de pago ya no
+      està disponible en tu país.
+    free-gifts-expire-desc: Caducará en 30 días
+    gift-expires-in-x-days: Este regalo caducará en ${days_left} días
+    gift-sent-by-string-who-string-when: Enviado por ${who} ${when}
+    gifts-btn: Elegir un regalo
+    home-btn: Mis regalos
+    lbl_add-message-for-the-recipient: ¡Añade un mensaje a tu regalo!
+    lbl_apply-the-same-message-to-all: El mismo mensaje para todos
+    lbl_back-to-my-gifts: Volver a mis regalos
+    lbl_categories: Categorías
+    lbl_confirm-send-gift: ¡Enviar tu regalo!
+    lbl_confirm-send-gift-3: 3/3 ¡Enviar tu regalo!
+    lbl_current-balance: Saldo actual
+    lbl_for-gift-VirtualGood-x: ${x.name()}
+    lbl_for-gift-string-vgid: <uitext id='lbl_virtualgood_name_${vgid}'>un regalo</uitext>
+    lbl_gift-request-in-progress: Enviando tu regalo...
+    lbl_gift-total-cost-is-x-credits: Coste total<br/>${x} créditos
+    lbl_load_more_friends: Mostrar más contactos...
+    lbl_message_for_user_x: Mensaje para <b>${x.name()}</b>
+    lbl_n_recipients: ${n} destinatarios
+    lbl_ok: OK
+    lbl_please-choose-a-gift: Elige un regalo
+    lbl_please-choose-a-gift-1: 1/3 Elige un regalo
+    lbl_please-choose-a-gift-2: 2/3 Elige un regalo
+    lbl_please-choose-some-recipients: Elige algunos destinatarios
+    lbl_please-choose-some-recipients-1: 1/3 Elige algunos destinatarios
+    lbl_please-choose-some-recipients-2: 2/3 Elige algunos destinatarios
+    lbl_please-top-up: Por favor, recarga el saldo de tus creditos para enviar este
+      regalo
+    lbl_retry-send-gift: Trata de nuevo
+    lbl_safe-payment: Garantia de pago seguro
+    lbl_select-all-recipients: Seleccionar todos mis amigos
+    lbl_send-a-gift: Enviar un regalo
+    lbl_send-a-gift-to-n-recipients: Enviarles un regalo
+    lbl_send-another-gift: Enviar otro regalo
+    lbl_send-him/her-a-gift: Enviarle un regalo
+    lbl_send-him/her-a-gift-3: 3/3 Enviarle un regalo
+    lbl_send-them-a-gift: Enviarles un regalo
+    lbl_send-them-a-gift-3: 3/3 Enviarles un regalo
+    lbl_send-this-gift: Enviar este regalo
+    lbl_sending-gift-please-wait: Enviando tu regalo...
+    lbl_store: Tienda de Regalos
+    lbl_user-x-s-gifts-will-appear-here: ${x.name()} no ha recibido algun regalo.
+      ¡Enviale uno ahora!
+    lbl_view-all-notifications: Notificaciones
+    lbl_you-need-n-more-credits: ¡Necesitas<br/><b class='amount'>${x}</b><br/>más
+      créditos!
+    lbl_your-friends-will-appear-here: Tus amigos aparecerán aqui
+    lbl_your-gift-could-not-be-sent: Tu regalo no pudo ser entregado
+    lbl_your-gift-has-been-successfully-sent: ¡¡¡ Tu regalo se ha enviado correctamente
+      !!!
+    lbl_your-gifts-will-appear-here: Los regalos que recibirás de tus amigos aparacerán
+      aqui.
+    lnk_to-gift-VirtualGood-x: <a href='#'>${x.name()}</a>
+    lnk_to-gift-string-vgid: <uitext id='link_virtualgood_name_${vgid}'>un regalo</uitext>
+    lnk_to-user-User-x: <a href='${x.index_url()}'>${x.name()}</a>
+    lnk_to-user-string-userid: <uitext id='link_user_name_${userid}'>un miembro</uitext>
+    msg_error-while-fetching-recipients: <p><b class='title'>¡Un error ha ocurrido!</b><br/>La
+      lista de tus amigos no se ha cargado por causa de un problema técnico. Trata
+      recargar tu pagina, y reporta el problema al administrator de tu sitio.</p>
+    msg_loading-please-wait: Cargando, espere un momento...
+    msg_make-your-friends-happy: <p><b class='title'>¿Quieres sorprender y divertir
+      a tus amigos?</b></p><p>¡Aquí puedes comprar más créditos para envíarle los
+      regalos más divertidos, creados por diseñadores profesionales!</p>
+    msg_need-more-credits-many-friends: <p><b class='title'>¿Necesitas más créditos?</b></p><p>¡Compra
+      más créditos de forma fácil y segura, y divierte a tus amigos con un regalo
+      especial!</p>
+    msg_need-more-credits-one-friend: <p><b class='title'>¿Necesitas más créditos?</b></p><p>¡Compra
+      más créditos de forma fácil y segura, y divierte a ${friend.name()} con un regalo
+      especial!</p>
+    msg_there-are-no-catalog-items: <p><b class='title'>¡Lo sentimos, de momento el
+      catálogo no está disponible!</b><br/>Si este problema persiste, ponte en contacto
+      con el administrator de tu sitio.</p>
+    msg_there-are-no-gifts-in-friendship: <p><b class='title'>Los regalos que entregáis
+      con ${friend.name()} aparecerán aquí</b><br/>¡Envía un regalo a ${friend.name()},
+      se quedarà bocabierta!</p>
+    msg_there-are-no-recipients: <p><b class='title'>¡La lista de tus amigos está
+      vacía!</b><br/>Añade amigos para poder enviarle regalos.</p><p>Si quieres enviar
+      un regalo a un miembro quien no es tu amigo, intenta hacerlo desde su pagina
+      de profilo.</p><p><i>Esto podrìa ser bloqueado para la configuración de privacidad
+      de tu sitio.</i></p>
+    n-credits-for-p-currency: ${n} créditos por ${p} ${currency}
+    n-credits-for-p-currency-save-s: ${n} créditos por ${p} ${currency} (ahorras ${s})
+    new-app-btn-text: ¡Descúbrela ahora!
+    new-catalog-item-btn-text: ¡Descúbrelos ahora!
+    other-home-btn: Regalos de ${other}
+    paypal-cancel-purchase: Cancelar la compra
+    paypal-instructions: Compra más créditos de forma fácil y segura con tu cuenta
+      PayPal o tu tarjeta de crédito.
+    paypal-pay-in-the-popup: Completa tu compra en la ventana PayPal.<br/><a target='_blank'
+      href='${url}'>No veo a la ventana PayPal</a>
+    pin-btn: Abrir
+    pm_card: Tarjeta de crédito
+    pm_paypal: Cuenta PayPal
+    pm_phonecall: Teléfono
+    pm_sms: SMS
+    powered_by: Impulsado por
+    purchase-with-paypal: Comprar con PayPal
+    search-btn: Buscar
+    secure_payment: Pago seguro
+    terms-and-conditions: condiciones de uso
+    thanks-for-gift: Agradecer
+    thanks-for-your-purchase: <p class='congrats'>¡Felicidades!</p><p class='obtained-credits'>Has
+      recibido ${n} créditos.</p>¡Utilizalos para enviar los regalos más divertidos
+      a tus amigos!
+    validate-code: Confirmar
+    you-need-n-more-credits-to-send-this-gift-to-m-recipients: Necesitas ${n} más
+      créditos para enviar tu regalo a ${m} amigos!
+    you-need-n-more-credits-to-send-this-gift-to-x: Necesitas ${n} más créditos para
+      enviar tu regalo a ${x.name()}!
+    your-payment-could-not-be-processed: Los sentimos, tu pago no ha podido ser aceptado.
+      Por favor, inténtalo de nuevo más tarde.
+    your-payment-is-being-processed: Estamos procesando tu pago...
+  here_are_some_free_credits: ¡Algunos créditos gratis para empezar a enviar regalos!
+  virtual_good:
+    name:
+      _flg_FreeCredits: Créditos Gratis
+      _flg_FreeCredits_100: 100 Créditos Gratis
+      _flg_FreeCredits_15: 15 Créditos Gratis
+      _flg_FreeCredits_50: 50 Créditos Gratis
+      _flg_Welcome: Bienvenido
+  welcome_on_feeligo: ¡Bienvenido! Con esta aplicación puedes enviar regalos a tus
+    amigos.
