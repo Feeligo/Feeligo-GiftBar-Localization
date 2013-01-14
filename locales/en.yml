@@ -1,229 +1,146 @@
 en:
-
-  welcome_on_feeligo: "Welcome! This widget lets you send gifts to your friends."
-  here_are_some_free_credits: "Here are some free credits to get you started!"
-
+  giftbar:
+    accept-tnc: I agree to the
+    accept-tnc-error: Please accept the terms and conditions before validating
+    also-send-gift: Send them a gift too
+    an-error-has-occurred-please-retry: An error has occurred. Please try again.
+    applications: Applications
+    apps-btn: Applications
+    back-btn: Back
+    beta_n-free-credits: ${x} free<br/>credits!
+    buy-more-credits-to-send-more-gifts: More credits = even more awesome gifts to
+      spoil your friends!
+    choose-how-many-credits-you-need: ! 'Choose how many credits you need:'
+    close-pin-btn: Minimize
+    credits-btn: Get more credits
+    credits_n: ${n} credits
+    date_n-days-ago: ${n} days ago
+    date_n-hours-ago: ${n} hours ago
+    date_n-minutes-ago: ${n} minutes ago
+    date_n-seconds-ago: ${n} seconds ago
+    enter-your-code-here: ! 'Once you have received your code, please enter it below
+      and click Validate:'
+    for_free_excl: Free!
+    found-no-pricepoints-for-your-country: Sorry, this payment method is not available
+      in your country yet.
+    free-gifts-expire-desc: Expires in 30 days
+    gift-expires-in-x-days: This gift will expire in ${days_left} days
+    gift-sent-by-string-who-string-when: Sent by ${who} ${when}
+    gifts-btn: Choose a gift
+    home-btn: My received gifts
+    lbl_add-message-for-the-recipient: Add a message to your gift!
+    lbl_apply-the-same-message-to-all: Same message to all
+    lbl_back-to-my-gifts: Back to My Gifts
+    lbl_categories: Categories
+    lbl_confirm-send-gift: Send your gift!
+    lbl_confirm-send-gift-3: 3/3 Send your gift!
+    lbl_current-balance: Current balance
+    lbl_for-gift-VirtualGood-x: ${x.name()}
+    lbl_for-gift-string-vgid: <uitext id='lbl_virtualgood_name_${vgid}'>a gift</uitext>
+    lbl_gift-request-in-progress: Your gift is being sent...
+    lbl_gift-total-cost-is-x-credits: Total cost<br/>${x} credits
+    lbl_load_more_friends: Show more friends...
+    lbl_message_for_user_x: Message for <b>${x.name()}</b>
+    lbl_n_recipients: ${n} recipients
+    lbl_ok: OK
+    lbl_please-choose-a-gift: Choose a gift
+    lbl_please-choose-a-gift-1: 1/3 Choose a gift
+    lbl_please-choose-a-gift-2: 2/3 Choose a gift
+    lbl_please-choose-some-recipients: Choose some recipients
+    lbl_please-choose-some-recipients-1: 1/3 Choose some recipients
+    lbl_please-choose-some-recipients-2: 2/3 Choose some recipients
+    lbl_please-top-up: Please top-up your credits in order to send this gift
+    lbl_retry-send-gift: Try again
+    lbl_safe-payment: Safe payment
+    lbl_select-all-recipients: Select all my friends
+    lbl_send-a-gift: Send a gift
+    lbl_send-a-gift-to-n-recipients: Send them a gift
+    lbl_send-another-gift: Send another gift
+    lbl_send-him/her-a-gift: Send them a gift
+    lbl_send-him/her-a-gift-3: 3/3 Send them a gift
+    lbl_send-them-a-gift: Send them a gift
+    lbl_send-them-a-gift-3: 3/3 Send them a gift
+    lbl_send-this-gift: Send this gift
+    lbl_sending-gift-please-wait: Sending your gift...
+    lbl_store: Gift Store
+    lbl_user-x-s-gifts-will-appear-here: ${x.name()} has not received any gift yet.
+      Send them one now!
+    lbl_view-all-notifications: Notifications
+    lbl_you-need-n-more-credits: You need<br/><b class='amount'>${x}</b><br/>more
+      credits!
+    lbl_your-friends-will-appear-here: Your friends will appear here
+    lbl_your-gift-could-not-be-sent: Your gift could not be sent
+    lbl_your-gift-has-been-successfully-sent: Your gift has been sent !!!
+    lbl_your-gifts-will-appear-here: Your gifts will appear here
+    lnk_to-gift-VirtualGood-x: <a href='#'>${x.name()}</a>
+    lnk_to-gift-string-vgid: <uitext id='link_virtualgood_name_${vgid}'>a gift</uitext>
+    lnk_to-user-User-x: <a href='${x.index_url()}'>${x.name()}</a>
+    lnk_to-user-string-userid: <uitext id='link_user_name_${userid}'>a member</uitext>
+    msg_error-while-fetching-recipients: <p><b class='title'>An error has occurred!</b><br/>Your
+      friend list could not be loaded due to a technical failure. Please try refreshing
+      this page in your browser; if the problem persists please inform the website
+      administrator.</p>
+    msg_loading-please-wait: Loading, please wait...
+    msg_make-your-friends-happy: <p><b class='title'>Want to make your friends happy?</b></p><p>You
+      can buy extra credits to be able to send our most exclusive gifts, made by professional
+      designers!</p>
+    msg_need-more-credits-many-friends: <p><b class='title'>Need more credits ?</b></p><p>You
+      can securely purchase some extra credits, and spoil your friends with a premium
+      gift !</p>
+    msg_need-more-credits-one-friend: <p><b class='title'>Need more credits ?</b></p><p>You
+      can securely purchase some extra credits, and spoil ${friend.name()} with a
+      premium gift !</p>
+    msg_there-are-no-catalog-items: <p><b class='title'>Sorry, the catalog is not
+      available at the moment!</b><br/>This might be due to a temporary error, please
+      try again later. If the problem persists, please contact the administrator of
+      your social network.</p>
+    msg_there-are-no-gifts-in-friendship: <p><b class='title'>The gifts you exchange
+      with ${friend.name()} will appear here</b><br/>Try sending a gift to ${friend.name()},
+      they'll love it!</p>
+    msg_there-are-no-recipients: <p><b class='title'>Your friend list is empty!</b><br/>Add
+      some members as friends to be able to send gifts to them!</p><p>If you wish
+      to send a gift to a member who is not your friend, please try doing so while
+      viewing their profile page.</p><p><i>If you have already done so, please be
+      aware that the privacy settings of some members may not allow you to send gifts
+      to them.</i></p>
+    n-credits-for-p-currency: ${n} credits for ${p} ${currency}
+    n-credits-for-p-currency-save-s: ${n} credits for ${p} ${currency} (you save ${s})
+    new-app-btn-text: Check it out now!
+    new-catalog-item-btn-text: Check them out now!
+    other-home-btn: ${other}'s gifts
+    paypal-cancel-purchase: Cancel purchase
+    paypal-instructions: PayPal makes it easy to purchase more Credits using your
+      PayPal account or your credit card.
+    paypal-pay-in-the-popup: Please complete your purchase in the PayPal window.<br/><a
+      target='_blank' href='${url}'>I don't see the PayPal window</a>
+    pin-btn: Open
+    pm_card: Credit card
+    pm_paypal: PayPal account
+    pm_phonecall: Phone call
+    pm_sms: SMS
+    powered_by: Powered by
+    purchase-with-paypal: Purchase with PayPal
+    search-btn: Search
+    secure_payment: Secure Payment
+    terms-and-conditions: terms and conditions
+    thanks-for-gift: Say thanks
+    thanks-for-your-purchase: <p class='congrats'>Congratulations!</p><p class='obtained-credits'>You
+      just received ${n} credits.</p>Use them to send more amazing gifts to your best
+      friends!
+    validate-code: Validate
+    you-need-n-more-credits-to-send-this-gift-to-m-recipients: You need ${n} more
+      credits to send your gift to ${m} friends!
+    you-need-n-more-credits-to-send-this-gift-to-x: You need ${n} more credits to
+      send your gift to ${x.name()}!
+    your-payment-could-not-be-processed: Apologies for the inconvenience, but your
+      payment cannot be processed at this time. Please try again later.
+    your-payment-is-being-processed: Your payment is being processed...
+  here_are_some_free_credits: Here are some free credits to get you started!
   virtual_good:
     name:
-      _flg_Welcome: "Welcome"
-      _flg_FreeCredits: "Free Credits"
-      _flg_FreeCredits_15: "15 Free Credits"
-      _flg_FreeCredits_50: "50 Free Credits"
-      _flg_FreeCredits_100: "100 Free Credits"
-
-  giftbar:
-    lnk_to-user-User-x:
-      "<a href='${x.index_url()}'>${x.name()}</a>"
-    lnk_to-user-string-userid:
-      "<uitext id='link_user_name_${userid}'>a member</uitext>"
-    lnk_to-gift-VirtualGood-x:
-      "<a href='#'>${x.name()}</a>"
-    lnk_to-gift-string-vgid:
-      "<uitext id='link_virtualgood_name_${vgid}'>a gift</uitext>"
-    lbl_for-gift-VirtualGood-x:
-      "${x.name()}"
-    lbl_for-gift-string-vgid:
-      "<uitext id='lbl_virtualgood_name_${vgid}'>a gift</uitext>"
-    gift-sent-by-string-who-string-when:
-      "Sent by ${who} ${when}"
-    date_n-seconds-ago:
-      "${n} seconds ago"
-    date_n-minutes-ago:
-      "${n} minutes ago"
-    date_n-hours-ago:
-      "${n} hours ago"
-    date_n-days-ago:
-      "${n} days ago"
-
-    credits_n: "${n} credits"
-    for_free_excl: "Free!"
-
-    title_my-received-gifts: "My Gifts"
-    title_user-x-s-received-gifts: "${x.name()}'s Gifts"
-    title_buy-credits: "Buy more credits"
-    title_gift-store: "Gift Store"
-    title_choose-recipients: "Recipients"
-    title_categories: "Categories"
-    title_you-and-user-x: "You and ${x.name()}"
-    title_send-a-gift: "Sending gift"
-
-    lbl_back-to-my-gifts: "Back to My Gifts"
-    lbl_retry-send-gift: "Try again"
-    lbl_send-a-gift: "Send a gift"
-    lbl_send-this-gift: "Send this gift"
-
-    lbl_please-choose-a-gift: "Choose a gift"
-    lbl_please-choose-a-gift-1: "1/3 Choose a gift"
-    lbl_please-choose-a-gift-2: "2/3 Choose a gift"
-
-    lbl_send-a-gift-to-n-recipients:
-      "Send them a gift"
-    lbl_please-choose-some-recipients:
-      "Choose some recipients"
-    lbl_please-choose-some-recipients-1:
-      "1/3 Choose some recipients"
-    lbl_please-choose-some-recipients-2:
-      "2/3 Choose some recipients"
-    lbl_send-him/her-a-gift:
-      "Send them a gift"
-    lbl_send-him/her-a-gift-3:
-      "3/3 Send them a gift"
-    
-    lbl_send-them-a-gift:
-      "Send them a gift"
-    lbl_send-them-a-gift-3:
-      "3/3 Send them a gift"
-
-    lbl_confirm-send-gift: "Send your gift!"
-    lbl_confirm-send-gift-3: "3/3 Send your gift!"
-
-    lbl_sending-gift-please-wait: "Sending your gift..."
-
-    lbl_n_recipients: "${n} recipients"
-
-    lbl_view-all-notifications:
-      "Notifications"
-    lbl_your-gifts-will-appear-here:
-      "Your gifts will appear here"
-    lbl_user-x-s-gifts-will-appear-here:
-      "${x.name()} has not received any gift yet. Send them one now!"
-    lbl_categories:
-      "Categories"
-    lbl_store:
-      "Gift Store"
-    lbl_friendship:
-      "Friendship"
-    lbl_add-message-for-the-recipient:
-      "Add a message to your gift!"
-    lbl_apply-the-same-message-to-all:
-      "Same message to all"
-    lbl_select-all-recipients:
-      "Select all my friends"
-    lbl_ok:
-      "OK"
-    lbl_message_for_user_x:
-      "Message for <b>${x.name()}</b>"
-    lbl_your-gift-has-been-successfully-sent:
-      "Your gift has been sent !!!"
-    lbl_your-gift-could-not-be-sent:
-      "Your gift could not be sent"
-    lbl_send-another-gift:
-      "Send another gift"
-    lbl_gift-request-in-progress:
-      "Your gift is being sent..."
-    lbl_your-friends-will-appear-here:
-      "Your friends will appear here"
-    lbl_gift-total-cost-is-x-credits:
-      "Total cost<br/>${x} credits"
-    lbl_current-balance:
-      "Current balance"
-    an-error-has-occurred-please-retry:
-      "An error has occurred. Please try again."
-    lbl_you-need-n-more-credits:
-      "You need<br/><b class='amount'>${x}</b><br/>more credits!"
-    lbl_please-top-up:
-      "Please top-up your credits in order to send this gift"
-    beta_n-free-credits:
-      "${x} free<br/>credits!"
-    lbl_safe-payment:
-      "Safe payment"
-    lbl_load_more_friends:
-      "Show more friends..."
-    msg_there-are-no-recipients:
-      "<p><b class='title'>Your friend list is empty!</b><br/>Add some members as friends to be able to send gifts to them!</p><p>If you wish to send a gift to a member who is not your friend, please try doing so while viewing their profile page.</p><p><i>If you have already done so, please be aware that the privacy settings of some members may not allow you to send gifts to them.</i></p>"
-    msg_there-are-no-catalog-items:
-      "<p><b class='title'>Sorry, the catalog is not available at the moment!</b><br/>This might be due to a temporary error, please try again later. If the problem persists, please contact the administrator of your social network.</p>"
-    msg_there-are-no-gifts-in-friendship:
-      "<p><b class='title'>The gifts you exchange with ${friend.name()} will appear here</b><br/>Try sending a gift to ${friend.name()}, they'll love it!</p>"
-    msg_loading-please-wait:
-      "Loading, please wait..."
-    msg_make-your-friends-happy:
-      "<p><b class='title'>Want to make your friends happy?</b></p><p>You can buy extra credits to be able to send our most exclusive gifts, made by professional designers!</p>"
-    msg_need-more-credits-one-friend:
-      "<p><b class='title'>Need more credits ?</b></p><p>You can securely purchase some extra credits, and spoil ${friend.name()} with a premium gift !</p>"
-    msg_need-more-credits-many-friends:
-      "<p><b class='title'>Need more credits ?</b></p><p>You can securely purchase some extra credits, and spoil your friends with a premium gift !</p>"
-    msg_error-while-fetching-recipients:
-      "<p><b class='title'>An error has occurred!</b><br/>Your friend list could not be loaded due to a technical failure. Please try refreshing this page in your browser; if the problem persists please inform the website administrator.</p>"
-    powered_by:
-      "Powered by"
-    secure_payment:
-      "Secure Payment"
-    pm_card:
-      "Credit card"
-    pm_paypal:
-      "PayPal account"
-    pm_phonecall:
-      "Phone call"
-    pm_sms:
-      "SMS"
-    found-no-pricepoints-for-your-country:
-      "Sorry, this payment method is not available in your country yet."
-    you-need-n-more-credits-to-send-this-gift-to-x:
-      "You need ${n} more credits to send your gift to ${x.name()}!"
-    you-need-n-more-credits-to-send-this-gift-to-m-recipients:
-      "You need ${n} more credits to send your gift to ${m} friends!"
-    buy-more-credits-to-send-more-gifts:
-      "More credits = even more awesome gifts to spoil your friends!"
-    choose-how-many-credits-you-need:
-      "Choose how many credits you need:"
-    enter-your-code-here:
-      "Once you have received your code, please enter it below and click Validate:"
-    validate-code:
-      "Validate"
-    accept-tnc-error:
-      "Please accept the terms and conditions before validating"
-    accept-tnc:
-      "I agree to the"
-    thanks-for-gift:
-      "Say thanks"
-    also-send-gift:
-      "Also send gift"
-    gift-expires-in-x-days:
-      "This gift will expire in ${days_left} days"
-    terms-and-conditions:
-      "terms and conditions"
-    apps-btn:
-      "Applications"
-    gifts-btn:
-      "Choose a gift"
-    search-btn:
-      "Search"
-    back-btn:
-      "Back"
-    home-btn:
-      "My received gifts"
-    other-home-btn:
-      "${other}'s gifts"
-    credits-btn:
-      "Get more credits"
-    pin-btn:
-      "Open"
-    close-pin-btn:
-      "Minimize"
-    applications:
-      "Applications"
-    new-catalog-item-btn-text:
-      'Check them out now!'
-    new-app-btn-text:
-      'Check it out now!'
-    free-gifts-expire-desc:
-      "Expires in 30 days"
-    your-payment-could-not-be-processed:
-      "Apologies for the inconvenience, but your payment cannot be processed at this time. Please try again later."
-    thanks-for-your-purchase:
-      "<p class='congrats'>Congratulations!</p><p class='obtained-credits'>You just received ${n} credits.</p>Use them to send more amazing gifts to your best friends!"
-    your-payment-is-being-processed:
-      "Your payment is being processed..."
-    n-credits-for-p-currency:
-      "${n} credits for ${p} ${currency}"
-    n-credits-for-p-currency-save-s:
-      "${n} credits for ${p} ${currency} (you save ${s})"
-    paypal-instructions:
-      "PayPal makes it easy to purchase more Credits using your PayPal account or your credit card."
-    purchase-with-paypal:
-      "Purchase with PayPal"
-    paypal-cancel-purchase:
-      "Cancel purchase"
-    paypal-pay-in-the-popup:
-      "Please complete your purchase in the PayPal window.<br/><a target='_blank' href='${url}'>I don't see the PayPal window</a>"
+      _flg_FreeCredits: Free Credits
+      _flg_FreeCredits_100: 100 Free Credits
+      _flg_FreeCredits_15: 15 Free Credits
+      _flg_FreeCredits_50: 50 Free Credits
+      _flg_Welcome: Welcome
+  welcome_on_feeligo: Welcome! This widget lets you send gifts to your friends.
