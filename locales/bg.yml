@@ -1,0 +1,224 @@
+bg:
+
+  welcome_on_feeligo: "Добре дошли! Това приложение ви предоставя възможността да изпращате подаръци на вашите приятели."
+  here_are_some_free_credits: "Тук са някои от безплатните кредити, с които можете да започнете."
+
+  virtual_good:
+    name:
+      _flg_Welcome: "Добре дошли!"
+      _flg_FreeCredits: "безплатни кредити"
+      _flg_FreeCredits_15: "15 безплатни кредити"
+      _flg_FreeCredits_50: "50 безплатни кредити"
+      _flg_FreeCredits_100: "100 безплатни кредити"
+
+  giftbar:
+    lnk_to-user-User-x:
+      "<a href='${x.index_url()}'>${x.name()}</a>"
+    lnk_to-user-string-userid:
+      "<uitext id='link_user_name_${userid}'>потребител</uitext>"
+    lnk_to-gift-VirtualGood-x:
+      "<a href='#'>${x.name()}</a>"
+    lnk_to-gift-string-vgid:
+      "<uitext id='link_virtualgood_name_${vgid}'>подарък</uitext>"
+    lbl_for-gift-VirtualGood-x:
+      "${x.name()}"
+    lbl_for-gift-string-vgid:
+      "<uitext id='lbl_virtualgood_name_${vgid}'>подарък</uitext>"
+    gift-sent-by-string-who-string-when:
+      "Изпратено от ${who} ${when}"
+    date_n-seconds-ago:
+      "преди ${n} секунди"
+    date_n-minutes-ago:
+      "преди ${n} минути"
+    date_n-hours-ago:
+      "преди ${n} часа"
+    date_n-days-ago:
+      "преди ${n} дена"
+    credits_n:
+      "${n} кредита"
+    for_free_excl:
+      "Безплатно!"
+    lbl_back-to-my-gifts:
+      "Назад към моите подаръци"
+    lbl_retry-send-gift:
+      "Опитайте отново"
+    lbl_send-a-gift:
+      "Изпрати подарък"
+    lbl_send-this-gift:
+      "Изпрати този подарък"
+    lbl_please-choose-a-gift:
+     "Избери подарък"
+    lbl_please-choose-a-gift-1:
+      "1/3 Избери подарък"
+    lbl_please-choose-a-gift-2:
+      "2/3 Избери подарък"
+    lbl_send-a-gift-to-n-recipients:
+      "Изпратете подарък"
+    lbl_please-choose-some-recipients:
+      "Изберете няколко получателя"
+    lbl_please-choose-some-recipients-1:
+      "1/3 Изберете няколко получателя"
+    lbl_please-choose-some-recipients-2:
+      "2/3 Изберете няколко получателя"
+    lbl_send-him/her-a-gift:
+      "Изпратете подарък"
+    lbl_send-him/her-a-gift-3:
+      "3/3 Изпратете подарък"
+    lbl_send-them-a-gift:
+      "Изпратете подарък"
+    lbl_send-them-a-gift-3:
+      "3/3 Изпратете подарък"
+    lbl_confirm-send-gift:
+      "3/3 Изпратете ваш подарък!"
+    lbl_confirm-send-gift-3:
+      "3/3 Изпратете ваш подарък!"
+    lbl_sending-gift-please-wait:
+      "Вашият подарък се изпраща..."
+    lbl_n_recipients:
+      "${n} получатели"
+    lbl_view-all-notifications:
+      "Известия"
+    lbl_your-gifts-will-appear-here:
+      "Вашите подаръци ще се покажат тук"
+    lbl_user-x-s-gifts-will-appear-here:
+      "${x.name()} все още не е получил подарък. Изпратете му сега един!"
+    lbl_categories:
+      "Категории"
+    lbl_store:
+      "Магазин"
+    lbl_friendship:
+      "Приятелство"
+    lbl_add-message-for-the-recipient:
+      "Добавете съобщение към вашия подарък!"
+    lbl_apply-the-same-message-to-all:
+      "Същото съобщение към всички"
+    lbl_select-all-recipients:
+      "Избиране на всичките приятели"
+    lbl_ok:
+      "Добре"
+    lbl_message_for_user_x:
+      "Съобщение за  <b>${x.name()}</b>"
+    lbl_your-gift-has-been-successfully-sent:
+      "Вашият подарък беше изпратен !!!"
+    lbl_your-gift-could-not-be-sent:
+      "Вашият подарък не е изпратен"
+    lbl_send-another-gift:
+      "Изпращане на друг подарък"
+    lbl_gift-request-in-progress:
+      "Вашият подарък се изпраща..."
+    lbl_your-friends-will-appear-here:
+      "Вашите приятели ще бъдат показани тук"
+    lbl_gift-total-cost-is-x-credits:
+      "Вашите разходи са <br/>${x} кредита"
+    lbl_current-balance:
+      "Текущ баланс"
+    an-error-has-occurred-please-retry:
+      "Възникна грешка. Моля опитайте отново."
+    lbl_you-need-n-more-credits:
+      "Нужни са ви още <br/><b class='amount'>${x}</b><br/> кредита!"
+    lbl_please-top-up:
+      "Нужни са ви повече кредити за да изпратите този подарък"
+    beta_n-free-credits:
+      "${x} free<br/>credits!"
+    lbl_safe-payment:
+      "Запис на плащането"
+    lbl_load_more_friends:
+      "Показване на още приятели..."
+    msg_there-are-no-recipients:
+      "<p><b class='title'>Вашият приятелски списък е празен!</b><br/>Добавете потребители от TuSense.com като приятели, за да можете да им изпращате подаръци!</p><p>За да изпратите подарък на човек който не е във вашият списък с приятели, е нужно да влезнете в профила му</p><p><i>If you have already done so, please be aware that the privacy settings of some members may not allow you to send gifts to them.</i></p>"
+    msg_there-are-no-catalog-items:
+      "<p><b class='title'>Sorry, the catalog is not available at the moment!</b><br/>This might be due to a temporary error, please try again later. If the problem persists, please contact the administrator of your social network.</p>"
+    msg_there-are-no-gifts-in-friendship:
+      "<p><b class='title'>Подаръците се обменят със ${friend.name()} които е/са тук</b><br/>Опитайте да изпратите подарък на ${friend.name()}, те ще харесат това!</p>"
+    msg_loading-please-wait:
+      "Зареждане, моля изчакайте..."
+    msg_make-your-friends-happy:
+      "<p><b class='title'>Искате да зарадвате ваш приятел ?</b></p><p>Вие можете да закупите кредити след което да изпратите уникални подаръци, изработени от професионални дизайнери!</p>"
+    msg_need-more-credits-one-friend:
+      "<p><b class='title'>Нуждаете се от още кредити ?</b></p><p>Вие можете да се запишете за екстра кредити и да зарадвате ${friend.name()} със платен подарък !</p>"
+    msg_need-more-credits-many-friends:
+      "<p><b class='title'>Нуждаете се от още кредити ?</b></p><p>Вие можете да се запишете за екстра кредити и да зарадвате вашите приятели със платени подаръци !</p>"
+    msg_error-while-fetching-recipients:
+      "<p><b class='title'>Възникна грешка!</b><br/>Вашият списък с приятели, не може да бъде зареден поради технически проблем. Моля опитайте се да презаредите сайта с вашия браузър; ако проблема не се оправи, свържете се с администратор.</p>"
+    powered_by:
+      "Изработено от: Tusense &"
+    secure_payment:
+      "Сигурно плащане"
+    pm_card:
+      "Кредитна карта"
+    pm_paypal:
+      "PayPal акаунт"
+    pm_phonecall:
+      "Телефонно обаждане"
+    pm_sms:
+      "SMS"
+    found-no-pricepoints-for-your-country:
+      "Съжеляваме, този метод за плащане не е активен във вашата държава все още."
+    you-need-n-more-credits-to-send-this-gift-to-x:
+      "Вие се нуждаете още от ${n} кредита за да изпратите вашия подарък на ${x.name()}!"
+    you-need-n-more-credits-to-send-this-gift-to-m-recipients:
+      "Бие се нуждаете от още ${n} кредита за да изпратите вашия подарък на ${m} приятели!"
+    buy-more-credits-to-send-more-gifts:
+      "Колкото повече кредити = толкова повече подаръци можете да изпратите на вашите приятели!"
+    choose-how-many-credits-you-need:
+      "Изберете от колко кредита се нуждаете:"
+    enter-your-code-here:
+      "След като получите кода си, моля натиснете НАПРЕД, за да продължите:"
+    validate-code:
+      "НАПРЕД"
+    accept-tnc-error:
+      "Моля съгласете се със правилата и условията за ползване за да продължите"
+    accept-tnc:
+      "Съгласявам се със"
+    thanks-for-gift:
+      "Благодаря"
+    also-send-gift:
+      "Също така изпрати подарък"
+    gift-expires-in-x-days:
+      "Този подарък ще изтече след ${days_left} дена"
+    terms-and-conditions:
+      "условия и изисквания"
+    apps-btn:
+      "Приложения"
+    gifts-btn:
+      "Изберете подарък"
+    search-btn:
+      "Търсенсе"
+    back-btn:
+      "Назад"
+    home-btn:
+      "Моите получени подаръци"
+    other-home-btn:
+      "${other} подаръци"
+    credits-btn:
+      "Взимане на още кредити"
+    pin-btn:
+      "Отвори"
+    close-pin-btn:
+      "Скриване"
+    applications:
+      "Приложения"
+    new-catalog-item-btn-text:
+      'Вижте ги сега!'
+    new-app-btn-text:
+      'Виж това сега!'
+    free-gifts-expire-desc:
+      "Изтича след 30 дни"
+    your-payment-could-not-be-processed:
+      "Извиняваме се за причиненото неудобство, но плащането не може да бъде извършено в момента. Моля, опитайте отново по-късно."
+    thanks-for-your-purchase:
+      "<p class='congrats'>Поздравления!</p><p class='obtained-credits'>Вие успешно получихте ${n} кредита.</p>Използвайте ги за да изпратите хубави подаръци на вашите приятели!"
+    your-payment-is-being-processed:
+      "Вашето плащане се обработва..."
+    n-credits-for-p-currency:
+      "${n} кредита за ${p} ${currency}"
+    n-credits-for-p-currency-save-s:
+      "${n} кредита за ${p} ${currency} (you save ${s})"
+    paypal-instructions:
+      "PayPal прави това за по лесно плащане използвайки вашия PayPal акаунт или вашата кредитна карта."
+    purchase-with-paypal:
+      "Плащане със Paypal"
+    paypal-cancel-purchase:
+      "Отказ от плащането"
+    paypal-pay-in-the-popup:
+      "Моля, попълнете покупката си в PayPal прозорец.<br/><a target='_blank' href='${url}'>Аз не мога да видя Paypal прозореца.</a>"
